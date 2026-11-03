@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "configVersion": 2,
+  "environment": "debug",
+  "enabled": true,
+  "minimumSupportedVersionCode": 1,
+  "recommendedVersionCode": 1,
+  "forceUpdate": false,
+  "maintenanceMode": false,
+  "maintenanceMessage": {
+    "en": "",
+    "fr": "",
+    "ar": ""
+  },
+  "announcement": {
+    "enabled": false,
+    "title": {
+      "en": "",
+      "fr": "",
+      "ar": ""
+    },
+    "message": {
+      "en": "",
+      "fr": "",
+      "ar": ""
+    },
+    "url": ""
+  },
+  "features": {
+    "ocr": true,
+    "pdfCompression": true,
+    "redaction": true,
+    "cloudBackup": false,
+    "digitalCertificates": false,
+    "aiFeatures": false
+  },
+  "freeLimits": {
+    "dailyAdvancedOperations": 5,
+    "dailyOcrPages": 3,
+    "maximumBatchFiles": 3,
+    "maximumScanPages": 10
+  },
+  "ads": {
+    "enabled": true,
+    "nativeHome": false,
+    "nativeTools": true,
+    "bannerEnabled": true,
+    "interstitialEnabled": true,
+    "rewardedEnabled": true,
+    "operationsBetweenInterstitials": 4,
+    "minutesBetweenInterstitials": 5,
+    "maximumInterstitialsPerSession": 3,
+    "rewardedUnlockDurationMinutes": 30,
+    "appId": "",
+    "bannerUnitId": "",
+    "rewardedUnitId": "",
+    "appOpenEnabled": true,
+    "interstitialUnitId": "",
+    "nativeUnitId": "",
+    "appOpenUnitId": "",
+    "appOpenMinBackgroundSeconds": 60,
+    "appOpenCooldownSeconds": 300
+  },
+  "paywall": {
+    "enabled": true,
+    "showMonthly": true,
+    "showAnnual": true,
+    "showLifetime": true,
+    "defaultPlan": "annual",
+    "trialEnabled": false,
+    "promotionEnabled": false
+  },
+  "reviewPrompt": {
+    "enabled": false,
+    "minimumSessions": 4,
+    "minimumSuccessfulOperations": 3,
+    "cooldownDays": 90
+  },
+  "links": {},
+  "packageName": "com.documently.pdf.galaxyapps",
+  "store": "galaxy"
+}
